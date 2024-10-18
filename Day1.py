@@ -1,4 +1,4 @@
-# Esse projeto é para gerar um nome para uma banda 
+# O desafio é para gerar um nome para uma banda 
 
 print("Welcome to the Band Name Generator.")
 city = input("What's the name of the city you grew up in?\n")
