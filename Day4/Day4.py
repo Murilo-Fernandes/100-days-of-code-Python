@@ -1,3 +1,5 @@
+# Desafio é o pedra, papel e tesoura.
+
 import random
 
 options = ["Rock", "Paper", "Scissor"]
