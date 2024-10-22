@@ -21,7 +21,7 @@ while lifes > 0:
         if guess not in secret_word:
             lifes -= 1
             if lifes != 0:
-                print(f"You guessed wrong, and lost 1 life. Now you have only {lifes}")
+                print(f"You guessed wrong, and lost 1 life. Now you have only {lifes} lifes!")
             else:
                 print("You lost the game!")
                 break
