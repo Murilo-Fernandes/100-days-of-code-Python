@@ -23,7 +23,7 @@ if pepperoni == "Y":
     else:
         bill += 5
 
-# How much the people need to pay based on they wanting or now extra cheese
+# How much the people need to pay based on they wanting or not extra cheese
 if extra_cheese == "Y":
     if size == "S":
         bill += 2
