@@ -40,4 +40,4 @@ while lifes > 0:
             print(f"The secret word was {secret_word}! \nCongratulations, you guessed it!")
             break
     else:
-        print("Digite apenas uma letra!")
+        print("Type only one letter.!")
