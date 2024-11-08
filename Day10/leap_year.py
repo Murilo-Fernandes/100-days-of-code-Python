@@ -5,10 +5,10 @@ def is_leap_year(year):
             if year % 400 == 0:
                 return True
             return False
-        elif year % 100 != 0:
+        else:
             return True 
     else:
         return False
   
     
-print(is_leap_year(2008))
+print(is_leap_year(2023))
