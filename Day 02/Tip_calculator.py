@@ -8,5 +8,5 @@ total_bill = price + total_tip # Calculate the total bill including tip
 per_person = total_bill / people # Calculate the amount each person should pay
 
 # Print the results
-print(f"Total bill: ${round(total_bill,2)}")
+print(f"Total bill: ${round(total_bill, 2)}")
 print(f"Each person should pay: ${per_person:.2f}")
