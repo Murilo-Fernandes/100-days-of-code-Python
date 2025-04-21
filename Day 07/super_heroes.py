@@ -1,0 +1,1 @@
+secret_words = ["Batgirl", "Nightwing", "Robin", "Superman", "Wonder-Woman", "Green-Lantern", "Flash", "Aquaman", "Hawkgirl", "Green-Arrow", "Batman", "Catwoman", "Joker", "Harley-Quinn", "Lex-Luthor", "Riddler", "Penguin", "Two-Face", "Scarecrow", "Poison Ivy"]
