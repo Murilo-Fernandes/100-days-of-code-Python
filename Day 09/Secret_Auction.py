@@ -4,12 +4,20 @@ import os
 def clear():
     os.system('cls')
 
+def highest_bidder(bidders):
+    for key in bidders:
+        if bidders[key] == max(bidders.values()):
+            winner = key 
+            winning_bid = bidders[key]
+    clear()
+    print(f"The winner is {winner} with a bid of ${winning_bid:.2f}")
+
 def auction():
-    dict = {}
+    bidders = {}
     while True: 
         name = input("Enter your name: ")
         bid = float(input("Enter your bid: $"))
-        dict[name] = bid 
+        bidders[name] = bid 
         while True: 
             more_bidders = input("Are there any other bidders? (yes/no): ").lower()
             if more_bidders == "no":
@@ -26,12 +34,7 @@ def auction():
         else:
             break
         
-    for key in dict:
-        if dict[key] == max(dict.values()):
-            winner = key 
-            winning_bid = dict[key]
-    clear()
-    print(f"The winner is {winner} with a bid of ${winning_bid:.2f}")
+    highest_bidder(bidders)
 
             
 auction()
