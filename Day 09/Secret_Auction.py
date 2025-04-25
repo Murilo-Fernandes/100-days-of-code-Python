@@ -18,6 +18,7 @@ def auction():
         name = input("Enter your name: ")
         bid = float(input("Enter your bid: $"))
         bidders[name] = bid 
+        
         while True: 
             more_bidders = input("Are there any other bidders? (yes/no): ").lower()
             if more_bidders == "no":
@@ -28,9 +29,9 @@ def auction():
             else:
                 print("Please enter 'yes' or 'no'.")
                 continue
+
         if more_bidders == "yes":
             clear()
-            continue
         else:
             break
         
@@ -38,6 +39,3 @@ def auction():
 
             
 auction()
-
-
-
