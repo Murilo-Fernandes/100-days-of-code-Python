@@ -1,5 +1,5 @@
 # This is a simple calculator program that performs basic arithmetic operations.
-
+# In the function it will return True or False to continue or stop the program.
 import os
 
 def add(n1, n2):
