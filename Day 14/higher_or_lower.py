@@ -35,7 +35,7 @@ def higher_or_lower():
             if player_a['goals'] > player_b['goals']:
                 os.system('cls')
                 print(f"Correct! {player_a['name']} has {player_a['goals']} goals. {player_b['name']} has {player_b['goals']} goals.")
-                score += 1
+                
 
                 if score > 0:
                     player_a = player_b
@@ -44,6 +44,8 @@ def higher_or_lower():
                         player_b = random.choice(data)
                 else:
                     player_b = random.choice(data)
+
+                score += 1
 
             else:
                 os.system('cls')
