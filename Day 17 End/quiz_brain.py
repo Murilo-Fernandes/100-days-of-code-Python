@@ -11,22 +11,19 @@ class QuizBrain:
         self.question_number += 1  
         user_answer = input(f"Q.{self.question_number}: {question.text} (True/False): ")
 
-        if self.check_answer(user_answer, question.answer):
+        self.check_answer(user_answer, question.answer)
+    
+    def check_answer(self, user_answer, correct_answer):
+        if user_answer.lower() == correct_answer.lower():
+            self.score += 1
             print("You got it right!")
             print(f"Your current score is: {self.score}/{self.question_number}")
             print(os.linesep)
         else:
             print("That's wrong.")
-            print(f"The correct answer was: {question.answer}")
+            print(f"The correct answer was: {correct_answer}")
             print(f"Your current score is: {self.score}/{self.question_number}")
             print(os.linesep)
-    
-    def check_answer(self, user_answer, correct_answer):
-        if user_answer.lower() == correct_answer.lower():
-            self.score += 1
-            return True
-        else:
-            return False
         
     def still_has_questions(self):
         return self.question_number < len(self.question_list)
