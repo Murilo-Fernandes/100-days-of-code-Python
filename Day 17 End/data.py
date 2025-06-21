@@ -1,0 +1,15 @@
+question_data = [
+    {"text": "Batman’s real name is Bruce Wayne.", "answer": "True"},
+    {"text": "Wonder Woman is originally from Mars.", "answer": "False"},
+    {"text": "Superman grew up in the town of Smallville.", "answer": "True"},
+    {"text": "The Joker was the first villain Batman faced in the comics.", "answer": "False"},
+    {"text": "Green Lantern Hal Jordan is vulnerable to the color yellow.", "answer": "True"},
+    {"text": "Lex Luthor once served as President of the United States in the DC Universe.", "answer": "True"},
+    {"text": "The Justice League's headquarters is located in the Fortress of Solitude.", "answer": "False"},
+    {"text": "The Flash can time travel by running fast enough.", "answer": "True"},
+    {"text": "Aquaman cannot breathe outside of water.", "answer": "False"},
+    {"text": "Green Arrow’s real name is Oliver Queen.", "answer": "True"},
+    {"text": "Cyborg is one of the original founders of the Justice League in the classic comics.", "answer": "False"},
+    {"text": "Superman's hometown is Metropolis.", "answer": "False"},
+    {"text": "Dick Grayson was the first Robin.", "answer": "True"},
+]
